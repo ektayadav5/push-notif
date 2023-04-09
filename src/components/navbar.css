@@ -1,0 +1,84 @@
+ @import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+
+
+
+.navbar {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 50px;
+    background-color: rgb(243, 249, 254);
+    font-family: 'Euclid Circular A', sans-serif;
+   
+  }
+ .navbar::-webkit-scrollbar{
+   background-color: blue;
+ }
+  .logo {
+    height: 100px;
+    width: 200px;
+  }
+  
+  .dropdowns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+  }
+  
+  .dropdown {
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 1500;
+    color: rgb(97, 100, 102);
+  }
+  
+  .login {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .signup{
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(19, 175, 130);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .signup :hover{
+      background-color: orange;
+  }
+  .nav_items{
+      /* margin-right: 0px; */
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content:center;
+      margin: 10px 0 10px 20px;
+  }
+  @media (max-width: 768px){
+    .nav_items{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: auto;
+      margin: 0 auto;
+      background-color: rgb(255, 255, 255);
+    }
+    .butts{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around; 
+      background-color: rgb(255, 255, 255)
+    }
+    
+  } 
