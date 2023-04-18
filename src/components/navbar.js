@@ -53,8 +53,8 @@ export default function CollapsibleExample() {
             </NavDropdown.Item>
           </NavDropdown>
           <NavDropdown className='nav_items' title="Solutions" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">
-              Action
+            <NavDropdown.Item href="/solutions/affiliates">
+              Affiliates
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
